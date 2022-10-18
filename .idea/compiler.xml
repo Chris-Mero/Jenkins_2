@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JenkinsCalculator" />
+        <module name="Jenkins_2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Jenkins_2" target="1.8" />
       <module name="JenkinsCalculator" target="1.8" />
     </bytecodeTargetLevel>
   </component>
